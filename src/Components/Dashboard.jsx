@@ -63,7 +63,7 @@ const Dashboard = () => {
                 </Box> :
                 (<>
                     {responseData.length === 0 ? <Box sx={{ textAlign: "center", mt: 20 }}>
-                        <Typography variant='h6'> No Data Found!</Typography>
+                        <Typography variant='h6'> No Data to display!</Typography>
                     </Box> :
                         <Grid container spacing={2} paddingX={2} mt={7} sx={{ align: "center" }}>
                             {responseData.map((row, index) => {
